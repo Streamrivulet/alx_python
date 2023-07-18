@@ -1,0 +1,1 @@
+Starting fndamental Python manipulations
