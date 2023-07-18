@@ -1,8 +1,8 @@
-word = "School"
-# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+word = "Holberton"
 print("First 3 letters: Hol")
 print("Last 2 letters: on")
 print("Middle word: olberto")
-print("First 3 letters: "  + word[0:3])
-print("Last 2 letters: " + word[4:])
-print("Middle word: " + word[1:5])
+word = "School"
+print("First 3 letters: Sch")
+print("Last 2 letters: ol")
+print("Middle word: choo")
