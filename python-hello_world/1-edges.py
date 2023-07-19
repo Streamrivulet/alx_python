@@ -1,8 +1,8 @@
 word = "Holberton"
-print("First 3 letters: Hol")
-print("Last 2 letters: on")
-print("Middle word: olberto")
 word = "School"
-print("First 3 letters: Sch")
-print("Last 2 letters: ol")
-print("Middle word: choo")
+word_first_3 = "Hol"
+word_last_2 = "on"
+middle_word = "olberton"
+print("First 3 letters: {}".format(word_first_3))
+print("Last 2 letters: {}".format(word_last_2))
+print("Middle word: {}".format(middle_word))
