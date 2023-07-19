@@ -6,14 +6,11 @@ b = "is"
 c = "and is greater than 5"
 d = "and is 0"
 e = "and is less than 6 and not 0"
-
 f = number%10
 
-if f > 5:
-    print(a, number, b, f, c, sep=" ")
-
-if f==5:
+if number%10 > 5:
+    print(a, number,  b, f, c, sep=" ")
+if number%10 == 0:
     print(a, number, b, f, d, sep=" ")
-
-if f < 6 & f<0:
+if number%10 < 6 & number%10 != 0:
     print(a, number, b, f, e, sep=" ")
