@@ -1,7 +1,7 @@
 import random
 number = random.randint(-10000, 10000)
 # YOUR CODE HERE
-Last = number % 10
+Last = abs(number) % 10
 
 if number < 0:
     Last = -Last
@@ -12,6 +12,8 @@ if Last > 5:
     print("and is greater than 5")
 elif Last == 0:
     print("and is 0")
-else:
+elif Last == -Last:
     print("and is less than 6 and not 0")
+else:
+    print("TypeError")
 
