@@ -12,8 +12,6 @@ if Last > 5:
     print("and is greater than 5")
 elif Last == 0:
     print("and is 0")
-elif Last == -Last:
-    print("and is less than 6 and not 0")
 else:
-    print("TypeError")
+    print("and is less than 6 and not 0")
 
