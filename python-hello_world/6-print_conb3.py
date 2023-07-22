@@ -1,10 +1,12 @@
-for i in range(100):
-         
-    if i == 99:
-        print(i)
+#!/usr/bin/python3
 
-    else:
-         print("{:02}" .format(i), end=", ")
+for i in range(45):
+    for j in range(46):
+      if (i+j) == 89:
+        print("{:02}" .format(i+j), end="\n")
+      else:
+         print("{:02}" .format(i+j), end=", " )
+         
 
 
 
