@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 
 for i in range(45):
     for j in range(46):
