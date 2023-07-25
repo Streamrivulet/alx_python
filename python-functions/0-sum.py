@@ -5,4 +5,6 @@ print(add(100,-2))
 print(add(-100,-2))
 print(add(0,0))
 
+add(5,7)
+
     
