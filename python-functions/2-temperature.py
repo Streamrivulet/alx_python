@@ -1,2 +1,5 @@
 def convert_to_celcius(fahrenheit):
-    return ((fahrenheit - 32) * 5)/9
+    celcius = ((fahrenheit - 32.0) * 5.0) / 9.0
+    return celcius
+
+    #return ((int(fahrenheit) - 32) * 5) /9
