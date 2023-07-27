@@ -1,5 +1,4 @@
 def fibonacci_sequence(n):
-    n = int(input("Enter length of Fibonacci series: "))
     num1 = 0
     num2 = 1
     next_number = 0
