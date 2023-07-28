@@ -13,7 +13,8 @@ def fibonacci_sequence(n):
         second = first + second
         first = temp
 
-        print(first[] + second[], end=" ")
+        print(first[n] + second[n], end=" ")
+    
         n -= 1
       
         return [n]
