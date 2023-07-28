@@ -2,7 +2,7 @@
 def is_prime(number):
 	if (number/number == 1) & (number/1 == number):
 		return True
-	if (number/number != 1) & (number/1 != number):
+	if (number/number) != 1:
 		return False
 #def Prime(number,itr): #prime function to check given number prime or not
 #if itr == 1: #base condition
