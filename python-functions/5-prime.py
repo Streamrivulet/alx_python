@@ -1,6 +1,5 @@
 #from math import sqrt
-def is_prime(number):
-	i= input("Input number")
+def is_prime(number, i):
 	if i/i ==1 & i/1 == i:
 		return True
 	if number % i == 0:
