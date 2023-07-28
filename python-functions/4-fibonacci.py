@@ -1,7 +1,4 @@
 def fibonacci_sequence(n):
-    first
-    second
-    
     first[0]=0
 
     second[1]=[1]
