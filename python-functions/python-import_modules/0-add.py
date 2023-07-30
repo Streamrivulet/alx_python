@@ -4,7 +4,3 @@ b = 2
 add(a, b)
 
 print("{} + {} = {}" .format(a, b, add(a, b)), end="\n")
-
-
-
-
