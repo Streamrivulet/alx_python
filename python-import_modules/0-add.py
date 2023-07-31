@@ -1,5 +1,6 @@
-from add_0 import add
-if add=="main":
+if add== "main":
+    from add_0 import add
+
     a = 1
     b = 2
     add(a, b)
