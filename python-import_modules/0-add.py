@@ -1,6 +1,5 @@
 from add_0 import add
-if add == __import__('add_0').add:
-
+if __name__ == "_main_":
     a = 1
     b = 2
     add(a, b)
