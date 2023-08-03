@@ -5,7 +5,7 @@ class Square:
     """
     Declaring the class Square
     """
-    def __init__(self, size):
+    def __init__(self, size = 0):
        
        """
        Setting the method
@@ -34,9 +34,6 @@ class Square:
              raise ValueError("size must be >= 0")
           else:
             self.__size = value
-    
-    def __init__(self, size = 0): #Assigned a default value to size
-       self.__size = size 
       
 
     def area(self):
