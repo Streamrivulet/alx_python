@@ -53,5 +53,8 @@ class Square:
                 for column in range(self.__size):
                     print("#", end="")
                 else:
-                    print("\n")
+                    print(end="\n")
+
+my_square = Square(3)
+my_square.my_print()
 
