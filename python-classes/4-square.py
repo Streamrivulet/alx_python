@@ -55,6 +55,6 @@ class Square:
                 else:
                     print(end="\n")
 
-my_square = Square(3)
-my_square.my_print()
+#my_square = Square(3)
+#my_square.my_print()
 
