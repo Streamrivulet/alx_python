@@ -13,9 +13,9 @@ class Square:
        self.__size = size 
 
     
-       @property
+    @property
 
-       def size(self):
+    def size(self):
 
         """
         Added property to retrieve the private size
@@ -23,8 +23,8 @@ class Square:
         return self.__size
        
        
-       @size.setter
-       def size(self, value):
+    @size.setter
+    def size(self, value):
           """
           Added setter to update the size
           """
@@ -40,5 +40,5 @@ class Square:
         """
          Creating another method that calculate and return the area of the square.
         """
-        return self.__size*self.__size
+        return self.size ** 2
     
