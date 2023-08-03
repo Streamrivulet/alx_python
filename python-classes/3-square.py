@@ -40,4 +40,4 @@ class Square:
         """
          #Creating another method that calculate and return the area of the square.
         """
-        return self.size*self.size
+        return self.size **2
