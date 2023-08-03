@@ -10,9 +10,9 @@ class Square:
 
    Delaring the class
    """
-   
-   def __init__(self, size = 0):
-       self.__size = size
+   __size = ""
+   #def __init__(self, size = 0):
+       #self.__size = size
 
    @property
    def size(self):
@@ -36,8 +36,12 @@ class Square:
        else:
            self.__size = value
 
+   def __init__(self, size = 0):
+       self.__size = size
+
+
    def area(self):
         """
          #Creating another method that calculate and return the area of the square.
         """
-        return self.size ** 2
+        return self.size*self.size
